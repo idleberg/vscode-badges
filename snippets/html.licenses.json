@@ -1,0 +1,58 @@
+{
+  "Apache License 2.0": {
+    "prefix": "svg-apache",
+    "body": "<a href=\"http://www.apache.org/licenses/LICENSE-2.0\"><img src=\"https://img.shields.io/badge/license-Apache%202.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Apache License\" alt=\"Apache License\" /></a>$9"
+  },
+  "CC0 1.0 Universal": {
+    "prefix": "svg-cc0",
+    "body": "<a href=\"http://creativecommons.org/publicdomain/zero/1.0/\"><img src=\"https://img.shields.io/badge/license-CC0%201.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Creative Commons\" alt=\"Creative Commons\" /></a>$9"
+  },
+  "Creative Commons Attribution 4.0": {
+    "prefix": "svg-cc-by",
+    "body": "<a href=\"http://creativecommons.org/licenses/by/4.0/\"><img src=\"https://img.shields.io/badge/license-CC--BY%204.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Creative Commons\" alt=\"Creative Commons\" /></a>$9"
+  },
+  "Creative Commons Attribution-NonCommercial 4.0": {
+    "prefix": "svg-cc-by-nc",
+    "body": "<a href=\"http://creativecommons.org/licenses/by-nc/4.0/\"><img src=\"https://img.shields.io/badge/license-CC--BY--NC%204.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Creative Commons\" alt=\"Creative Commons\" /></a>$9"
+  },
+  "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0": {
+    "prefix": "svg-cc-by-nc-nd",
+    "body": "<a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img src=\"https://img.shields.io/badge/license-CC--BY--NC--ND%204.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Creative Commons\" alt=\"Creative Commons\" /></a>$9"
+  },
+  "Creative Commons Attribution-NoDerivatives 4.0": {
+    "prefix": "svg-cc-by-nd",
+    "body": "<a href=\"http://creativecommons.org/licenses/by-nd/4.0/\"><img src=\"https://img.shields.io/badge/license-CC--BY--ND%204.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Creative Commons\" alt=\"Creative Commons\" /></a>$9"
+  },
+  "Creative Commons Attribution-ShareAlike 4.0": {
+    "prefix": "svg-cc-by-sa",
+    "body": "<a href=\"http://creativecommons.org/licenses/by-sa/4.0/\"><img src=\"https://img.shields.io/badge/license-CC--BY--SA%204.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Creative Commons\" alt=\"Creative Commons\" /></a>$9"
+  },
+  "GNU General Public License 2.0": {
+    "prefix": "svg-gpl2",
+    "body": "<a href=\"http://www.gnu.org/licenses/gpl-2.0.html\"><img src=\"https://img.shields.io/badge/license-GPL%20v2-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"GNU General Public License\" alt=\"GNU General Public License\" /></a>$9"
+  },
+  "GNU General Public License 3.0": {
+    "prefix": "svg-gpl3",
+    "body": "<a href=\"http://www.gnu.org/licenses/gpl-3.0.en.html\"><img src=\"https://img.shields.io/badge/license-GPL%20v3-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"GNU General Public License\" alt=\"GNU General Public License\" /></a>$9"
+  },
+  "Mozilla Public License 2.0": {
+    "prefix": "svg-mpl",
+    "body": "<a href=\"https://www.mozilla.org/MPL/\"><img src=\"https://img.shields.io/badge/license-MPL-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"Mozilla Public License\" alt=\"Mozilla Public License\" /></a>$9"
+  },
+  "SIL Open Font License 1.0": {
+    "prefix": "svg-ofl10",
+    "body": "<a href=\"http://scripts.sil.org/OFL\"><img src=\"https://img.shields.io/badge/license-OFL%201.0-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"SIL Open Font License\" alt=\"SIL Open Font License\" /></a>$9"
+  },
+  "SIL Open Font License 1.1": {
+    "prefix": "svg-ofl11",
+    "body": "<a href=\"http://scripts.sil.org/OFL\"><img src=\"https://img.shields.io/badge/license-OFL%201.1-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"SIL Open Font License\" alt=\"SIL Open Font License\" /></a>$9"
+  },
+  "The MIT License": {
+    "prefix": "svg-mit",
+    "body": "<a href=\"http://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/license-MIT-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"The MIT License\" alt=\"The MIT License\" /></a>$9"
+  },
+  "The zlib/libsvg License": {
+    "prefix": "svg-zlib-libpng",
+    "body": "<a href=\"http://opensource.org/licenses/Zlib\"><img src=\"https://img.shields.io/badge/license-zlib%2Flibpng-${1:orange}.svg${2:?style=flat${3:-square}}\" title=\"zlib/libpng\" alt=\"zlib/libpng\" /></a>$9"
+  }
+}

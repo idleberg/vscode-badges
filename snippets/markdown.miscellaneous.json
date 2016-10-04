@@ -1,0 +1,158 @@
+{
+  "apm license": {
+    "prefix": "svg-apm-license",
+    "body": "[![apm](https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})$9"
+  },
+  "Bountysource": {
+    "prefix": "svg-bountysource",
+    "body": "[![Bountysource](https://img.shields.io/bountysource/team/${1:team}/activity.svg${2:?style=flat${3:-square}})](${4:https://www.bountysource.com/teams/${1:team}})$9"
+  },
+  "CocoaPods license": {
+    "prefix": "svg-cocoapods-license",
+    "body": "[![CocoaPods](https://img.shields.io/cocoapods/l/${1:pod}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "CocoaPods platform": {
+    "prefix": "svg-cocoapods-platform",
+    "body": "[![CocoaPods](https://img.shields.io/cocoapods/p/${1:pod}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "Codacy": {
+    "prefix": "svg-codacy",
+    "body": "[![Codacy](https://img.shields.io/codacy/${1:id}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "Code Climate Coverage": {
+    "prefix": "svg-codeclimate-coverage",
+    "body": "[![Code Climate](https://img.shields.io/codeclimate/coverage/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "Code Climate": {
+    "prefix": "svg-codeclimate",
+    "body": "[![Code Climate](https://img.shields.io/codeclimate/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "Crates.io license": {
+    "prefix": "svg-crates-license",
+    "body": "[![Crates.io](https://img.shields.io/crates/l/${1:project}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "David devDependencies": {
+    "prefix": "svg-david-devdep",
+    "body": "[![David](https://img.shields.io/david/dev/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://david-dm.org/${1:user}/${2:repository}?type=dev})$9"
+  },
+  "David peerDependencies": {
+    "prefix": "svg-david-peerdeps",
+    "body": "[![David](https://img.shields.io/david/peer/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://david-dm.org/${1:user}/${2:repository}?type=peer})$9"
+  },
+  "David": {
+    "prefix": "svg-david-dep",
+    "body": "[![David](https://img.shields.io/david/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://david-dm.org/${1:user}/${2:repository}})$9"
+  },
+  "DUB license": {
+    "prefix": "svg-dub-license",
+    "body": "[![DUB](https://img.shields.io/dub/l/${1:project}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "Gem rank daily": {
+    "prefix": "svg-gem-rank-day",
+    "body": "[![Gem](https://img.shields.io/gem/rd/${1:gem}.svg${2:?style=flat${3:-square}})](${4:https://rubygems.org/gems/${1:gem}})$9"
+  },
+  "Gem rank total": {
+    "prefix": "svg-gem-rank-total",
+    "body": "[![Gem](https://img.shields.io/gem/rt/${1:gem}.svg${2:?style=flat${3:-square}})](${4:https://rubygems.org/gems/${1:gem}})$9"
+  },
+  "Gem user": {
+    "prefix": "svg-gem-user",
+    "body": "[![Gem](https://img.shields.io/gem/u/${1:gem}.svg${2:?style=flat${3:-square}})](${5:https://rubygems.org/profiles/${4:user}})$9"
+  },
+  "Gemnasium": {
+    "prefix": "svg-gemnasium-deps",
+    "body": "[![Gemnasium](https://img.shields.io/gemnasium/${1:user}/${2:gem}.svg${3:?style=flat${4:-square}})](${5:https://gemnasium.com/${1:user}/${2:gem}})$9"
+  },
+  "GitHub issues": {
+    "prefix": "svg-github-issues",
+    "body": "[![GitHub](https://img.shields.io/github/issues/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}/issues})$9"
+  },
+  "Gitter chat": {
+    "prefix": "svg-gitter-chat",
+    "body": "[![Gitter](https://img.shields.io/badge/chat-Gitter-${3:ff69b4}.svg${4:?style=flat${5:-square}})](https://gitter.im/${1:user}/${2:repository})$9"
+  },
+  "Gratipay": {
+    "prefix": "svg-gratipay",
+    "body": "[![Gratipay](https://img.shields.io/gratipay/${1:user}.svg${2:?style=flat${3:-square}})](${4:https://gratipay.com/${1:user}})$9"
+  },
+  "Hackage": {
+    "prefix": "svg-hackage-deps",
+    "body": "[![Hackage](https://img.shields.io/hackage-deps/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hackage.haskell.org/package/${1:package}})$9"
+  },
+  "Hex.pm license": {
+    "prefix": "svg-hex-license",
+    "body": "[![Hex.pm](https://img.shields.io/hexpm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hex.pm/packages/${1:package}})$9"
+  },
+  "Libscore": {
+    "prefix": "svg-libscore",
+    "body": "[![Libscore](https://img.shields.io/libscore/s/${1:project}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "npm license": {
+    "prefix": "svg-npm-license",
+    "body": "[![npm](https://img.shields.io/npm/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://www.npmjs.org/package/${1:package}})$9"
+  },
+  "Packagist license": {
+    "prefix": "svg-packagist-license",
+    "body": "[![Packagist](https://img.shields.io/packagist/l/${1:user}/${2:package}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})$9"
+  },
+  "PuppetForge endorsement": {
+    "prefix": "svg-puppetforge-endorsement",
+    "body": "[![PuppetForge](https://img.shields.io/puppetforge/e/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetforge.net/${1:user}/${2:project}})$9"
+  },
+  "PuppetForge modules": {
+    "prefix": "svg-puppetforge-modules",
+    "body": "[![PuppetForge](https://img.shields.io/puppetforge/mc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetforge.net/${1:user}/${2:project}})$9"
+  },
+  "PuppetForge releases": {
+    "prefix": "svg-puppetforge-releases",
+    "body": "[![PuppetForge](https://img.shields.io/puppetforge/rc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetforge.net/${1:user}/${2:project}})$9"
+  },
+  "PuppetForge score": {
+    "prefix": "svg-puppetforge-score",
+    "body": "[![PuppetForge](https://img.shields.io/puppetforge/f/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetforge.net/${1:user}/${2:project}})$9"
+  },
+  "PyPI implementation": {
+    "prefix": "svg-pypi-implementation",
+    "body": "[![PyPI](https://img.shields.io/pypi/implementation/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "PyPI license": {
+    "prefix": "svg-pypi-license",
+    "body": "[![PyPI](https://img.shields.io/pypi/l/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "PyPI status": {
+    "prefix": "svg-pypi-status",
+    "body": "[![PyPI](https://img.shields.io/pypi/status/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "PyPI versions": {
+    "prefix": "svg-pypi-versions",
+    "body": "[![PyPI](https://img.shields.io/pypi/pyversions/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "PyPI wheel": {
+    "prefix": "svg-pypi-wheel",
+    "body": "[![PyPI](https://img.shields.io/pypi/wheel/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "Requires.io": {
+    "prefix": "svg-requires",
+    "body": "[![Requires.io](https://img.shields.io/requires/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "Talk.ai": {
+    "prefix": "svg-talk",
+    "body": "[![Talk.ai](https://img.shields.io/talk/t/${1:id}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "VersionEye": {
+    "prefix": "svg-versioneye-deps",
+    "body": "[![VersionEye](https://img.shields.io/versioneye/d/${1:language}/${2:library}.svg${3:?style=flat${4:-square}})](${5:https://www.versioneye.com/${1:language}/${2:library}})$9"
+  },
+  "Wheelmap": {
+    "prefix": "svg-wheelmap",
+    "body": "[![Wheelmap](https://img.shields.io/wheelmap/a/${1:node}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "WordPress": {
+    "prefix": "svg-wordpress-rating",
+    "body": "[![WordPress](https://img.shields.io/wordpress/plugin/r/${1:plugin}.svg${2:?style=flat${3:-square}})]($4)$9"
+  },
+  "Your Badge": {
+    "prefix": "svg-custom",
+    "body": "[![${1:subject}](https://img.shields.io/badge/${2:${1:subject}}-${3:status}-${4:color}.svg${5:?style=flat${6:-square}})]($7)$9"
+  }
+}

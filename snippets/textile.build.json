@@ -1,0 +1,130 @@
+{
+  "AppVeyor branch": {
+    "prefix": "svg-appveyor-branch",
+    "body": "\"!https://img.shields.io/appveyor/ci/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}(AppVeyor)!\":$6$9"
+  },
+  "AppVeyor": {
+    "prefix": "svg-appveyor",
+    "body": "\"!https://img.shields.io/appveyor/ci/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(AppVeyor)!\":$5$9"
+  },
+  "CircleCI branch": {
+    "prefix": "svg-circleci-branch",
+    "body": "\"!https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}}(CircleCI)!\":$6$9"
+  },
+  "CircleCI token": {
+    "prefix": "svg-circleci-token",
+    "body": "\"!https://img.shields.io/circleci/token/${1:YOURTOKEN}/project/${2:user}/${3:repository}/${4:master}.svg${5:?style=flat${6:-square}}(CircleCI)!\":$7$9"
+  },
+  "CircleCI": {
+    "prefix": "svg-circleci",
+    "body": "\"!https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(CircleCI)!\":$5$9"
+  },
+  "Codecov branch": {
+    "prefix": "svg-codecov-branch",
+    "body": "\"!https://img.shields.io/codecov/c/github/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}}(Codecov)!\":$6$9"
+  },
+  "Codecov private": {
+    "prefix": "svg-codecov-private",
+    "body": "\"!https://img.shields.io/codecov/c/token/${1:YOURTOKEN}/github/${2:user}/${3:repository}/${4:master}.svg${5:?style=flat${6:-square}}(Codecov)!\":$7$9"
+  },
+  "Codecov": {
+    "prefix": "svg-codecov",
+    "body": "\"!https://img.shields.io/codecov/c/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Codecov)!\":$5$9"
+  },
+  "Codeship branch": {
+    "prefix": "svg-codeship-branch",
+    "body": "\"!https://img.shields.io/codeship/${1:id}/${2:branch}.svg${3:?style=flat${4:-square}}(Codeship)!\":$5$9"
+  },
+  "Codeship": {
+    "prefix": "svg-codeship",
+    "body": "\"!https://img.shields.io/codeship/${1:id}.svg${2:?style=flat${3:-square}}(Codeship)!\":$4$9"
+  },
+  "Coveralls branch": {
+    "prefix": "svg-coveralls-branch",
+    "body": "\"!https://img.shields.io/coveralls/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}(Coveralls)!\":$6$9"
+  },
+  "Coveralls": {
+    "prefix": "svg-coveralls",
+    "body": "\"!https://img.shields.io/coveralls/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Coveralls)!\":$5$9"
+  },
+  "Coverity Job": {
+    "prefix": "svg-coverity-job",
+    "body": "\"!https://img.shields.io/coverity/ondemand/job/${1:JOB}.svg${2:?style=flat${3:-square}}(Coverity)!\":$4$9"
+  },
+  "Coverity Stream": {
+    "prefix": "svg-coverity-stream",
+    "body": "\"!https://img.shields.io/coverity/ondemand/streams/${1:STREAM}.svg${2:?style=flat${3:-square}}(Coverity)!\":$4$9"
+  },
+  "HHVM branch": {
+    "prefix": "svg-hhvm-branch",
+    "body": "\"!https://img.shields.io/hhvm/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}(HHVM)!\":$6$9"
+  },
+  "HHVM": {
+    "prefix": "svg-hhvm",
+    "body": "\"!https://img.shields.io/hhvm/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(HHVM)!\":$5$9"
+  },
+  "Jenkins tests": {
+    "prefix": "svg-jenkins-tests",
+    "body": "\"!https://img.shields.io/jenkins/t/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}(Jenkins)!\":$5$9"
+  },
+  "Jenkins": {
+    "prefix": "svg-jenkins",
+    "body": "\"!https://img.shields.io/jenkins/s/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}(Jenkins)!\":$5$9"
+  },
+  "Scrutinizer branch": {
+    "prefix": "svg-scrutinizer-branch",
+    "body": "\"!https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}(Scrutinizer)!\":$6$9"
+  },
+  "Scrutinizer Build": {
+    "prefix": "svg-scrutinizer-build",
+    "body": "\"!https://img.shields.io/scrutinizer/build/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Scrutinizer)!\":$5$9"
+  },
+  "Scrutinizer Coverage": {
+    "prefix": "svg-scrutinizer-coverage",
+    "body": "\"!https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Scrutinizer)!\":$5$9"
+  },
+  "Scrutinizer": {
+    "prefix": "svg-scrutinizer",
+    "body": "\"!https://img.shields.io/scrutinizer/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Scrutinizer)!\":$5$9"
+  },
+  "SensioLabs Insight": {
+    "prefix": "svg-sensiolab",
+    "body": "\"!https://img.shields.io/sensiolabs/i/${1:id}.svg${2:?style=flat${3:-square}}(SensioLabs)!\":$4$9"
+  },
+  "Shippable branch": {
+    "prefix": "svg-shippable-branch",
+    "body": "\"!https://img.shields.io/shippable/${1:hash}/${2:master}.svg${3:?style=flat${4:-square}}(Shippable)!\":$5$9"
+  },
+  "Shippable": {
+    "prefix": "svg-shippable",
+    "body": "\"!https://img.shields.io/shippable/${1:hash}.svg${2:?style=flat${3:-square}}(Shippable)!\":$4$9"
+  },
+  "TeamCity (full build status)": {
+    "prefix": "svg-teamcity-full-build-status",
+    "body": "\"!https://img.shields.io/teamcity/http/teamcity.jetbrains.com/e/${1:buildtype}.svg${2:?style=flat${3:-square}}(TeamCity)!\":$4$9"
+  },
+  "TeamCity (simple build status)": {
+    "prefix": "svg-teamcity-simple-build-status",
+    "body": "\"!https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/${1:buildtype}.svg${2:?style=flat${3:-square}}(TeamCity)!\":$4$9"
+  },
+  "TeamCity CodeBetter Coverage": {
+    "prefix": "svg-teamcity-coverage",
+    "body": "\"!https://img.shields.io/teamcity/coverage/${1:buildtype}.svg${2:?style=flat${3:-square}}(TeamCity)!\":$4$9"
+  },
+  "TeamCity CodeBetter": {
+    "prefix": "svg-teamcity-codebetter",
+    "body": "\"!https://img.shields.io/teamcity/codebetter/${1:buildtype}.svg${2:?style=flat${3:-square}}(TeamCity)!\":$4$9"
+  },
+  "Travis branch": {
+    "prefix": "svg-travis-branch",
+    "body": "\"!https://img.shields.io/travis/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}(Travis CI)!\":${6:https://travis-ci.org/${1:user}/${2:repository}}$9"
+  },
+  "Travis": {
+    "prefix": "svg-travis",
+    "body": "\"!https://img.shields.io/travis/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Travis CI)!\":${5:https://travis-ci.org/${1:user}/${2:repository}}$9"
+  },
+  "Wercker": {
+    "prefix": "svg-wercker",
+    "body": "\"!https://img.shields.io/wercker/ci/${1:id}.svg${2:?style=flat${3:-square}}(Wercker)!\":$4$9"
+  }
+}

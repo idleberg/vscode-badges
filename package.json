@@ -1,0 +1,153 @@
+{
+    "name": "badges",
+    "displayName": "Badges",
+    "description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
+    "version": "0.0.0",
+    "publisher": "idleberg",
+    "license": "MIT",
+    "author": {
+        "name": "Jan T. Sott",
+        "url": "http://github.com/idleberg"
+    },
+    "keywords": [
+        "badge",
+        "badges",
+        "shieldio",
+        "shield.io"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/idleberg/vscode-badges.git"
+    },
+    "homepage": "https://github.com/idleberg/vscode-badges",
+    "bugs": {
+        "url": "https://github.com/idleberg/vscode-badges/issues"
+    },
+    "icon": "images/logo.svg",
+    "galleryBanner": {
+        "color": "#232323",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/__cdnjs.json"
+            },
+            {
+                "languages": "html",
+                "path": "/snippets/html.build.json"
+            },
+            {
+                "languages": "html",
+                "path": "/snippets/html.downloads.json"
+            },
+            {
+                "languages": "html",
+                "path": "/snippets/html.licenses.json"
+            },
+            {
+                "languages": "html",
+                "path": "/snippets/html.miscellaneous.json"
+            },
+            {
+                "languages": "html",
+                "path": "/snippets/html.social.json"
+            },
+            {
+                "languages": "html",
+                "path": "/snippets/html.version.json"
+            },
+            {
+                "languages": "markdown",
+                "path": "/snippets/markdown.build.json"
+            },
+            {
+                "languages": "markdown",
+                "path": "/snippets/markdown.downloads.json"
+            },
+            {
+                "languages": "markdown",
+                "path": "/snippets/markdown.licenses.json"
+            },
+            {
+                "languages": "markdown",
+                "path": "/snippets/markdown.miscellaneous.json"
+            },
+            {
+                "languages": "markdown",
+                "path": "/snippets/markdown.social.json"
+            },
+            {
+                "languages": "markdown",
+                "path": "/snippets/markdown.version.json"
+            },
+            {
+                "languages": "restructuredtext",
+                "path": "/snippets/rst.build.json"
+            },
+            {
+                "languages": "restructuredtext",
+                "path": "/snippets/rst.downloads.json"
+            },
+            {
+                "languages": "restructuredtext",
+                "path": "/snippets/rst.licenses.json"
+            },
+            {
+                "languages": "restructuredtext",
+                "path": "/snippets/rst.miscellaneous.json"
+            },
+            {
+                "languages": "restructuredtext",
+                "path": "/snippets/rst.social.json"
+            },
+            {
+                "languages": "restructuredtext",
+                "path": "/snippets/rst.version.json"
+            },
+            {
+                "languages": "textile",
+                "path": "/snippets/textile.build.json"
+            },
+            {
+                "languages": "textile",
+                "path": "/snippets/textile.downloads.json"
+            },
+            {
+                "languages": "textile",
+                "path": "/snippets/textile.licenses.json"
+            },
+            {
+                "languages": "textile",
+                "path": "/snippets/textile.miscellaneous.json"
+            },
+            {
+                "languages": "textile",
+                "path": "/snippets/textile.social.json"
+            },
+            {
+                "languages": "textile",
+                "path": "/snippets/textile.version.json"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "gulp lint"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-debug": "^2.1.2",
+        "gulp-eslint": "^3.0.1",
+        "gulp-json-lint": "^0.1.0",
+        "gulp-xml-validator": "^0.1.2",
+        "vscode": "^1.0.0"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "GitHub followers": {
+    "prefix": "svg-github-followers",
+    "body": "[![GitHub](https://img.shields.io/github/followers/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}})$9"
+  },
+  "GitHub forks": {
+    "prefix": "svg-github-forks",
+    "body": "[![GitHub](https://img.shields.io/github/forks/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}})$9"
+  },
+  "GitHub stars": {
+    "prefix": "svg-github-stars",
+    "body": "[![GitHub](https://img.shields.io/github/stars/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}})$9"
+  },
+  "Twitter follow": {
+    "prefix": "svg-twitter-follow",
+    "body": "[![Twitter](https://img.shields.io/badge/https://img.shields.io/badge/Follow-%40${1:username}-${2:blue}.svg${3:&style=flat${4:-square}})](http://twitter.com/${1:username})$9"
+  },
+  "Twitter URL": {
+    "prefix": "svg-twitter-url",
+    "body": "[![Twitter](https://img.shields.io/twitter/url/https/${1:url}.svg${3:?style=flat${4:-square}})]($5)$9"
+  }
+}

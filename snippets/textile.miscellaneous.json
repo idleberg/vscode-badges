@@ -1,0 +1,158 @@
+{
+  "apm license": {
+    "prefix": "svg-apm-license",
+    "body": "\"!https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}}(apm)!\":${4:https://atom.io/${5:packages}/${1:package}}"
+  },
+  "Bountysource": {
+    "prefix": "svg-bountysource",
+    "body": "\"!https://img.shields.io/bountysource/team/${1:team}/activity.svg${2:?style=flat${3:-square}}(Bountysource)!\":${4:https://www.bountysource.com/teams/${1:team}}"
+  },
+  "CocoaPods license": {
+    "prefix": "svg-cocoapods-license",
+    "body": "\"!https://img.shields.io/cocoapods/l/${1:pod}.svg${2:?style=flat${3:-square}}(CocoaPods)!\":$4"
+  },
+  "CocoaPods platform": {
+    "prefix": "svg-cocoapods-platform",
+    "body": "\"!https://img.shields.io/cocoapods/p/${1:pod}.svg${2:?style=flat${3:-square}}(CocoaPods)!\":$4"
+  },
+  "Codacy": {
+    "prefix": "svg-codacy",
+    "body": "\"!https://img.shields.io/codacy/${1:id}.svg${2:?style=flat${3:-square}}(Codacy)!\":$4"
+  },
+  "Code Climate Coverage": {
+    "prefix": "svg-codeclimate-coverage",
+    "body": "\"!https://img.shields.io/codeclimate/coverage/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Code Climate)!\":$5"
+  },
+  "Code Climate": {
+    "prefix": "svg-codeclimate",
+    "body": "\"!https://img.shields.io/codeclimate/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Code Climate)!\":$5"
+  },
+  "Crates.io license": {
+    "prefix": "svg-crates-license",
+    "body": "\"!https://img.shields.io/crates/l/${1:project}.svg${3:?style=flat${4:-square}}(Crates.io)!\":$5"
+  },
+  "David devDependencies": {
+    "prefix": "svg-david-devdep",
+    "body": "\"!https://img.shields.io/david/dev/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}?type=dev}"
+  },
+  "David peerDependencies": {
+    "prefix": "svg-david-peerdeps",
+    "body": "\"!https://img.shields.io/david/peer/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}?type=peer}"
+  },
+  "David": {
+    "prefix": "svg-david-dep",
+    "body": "\"!https://img.shields.io/david/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(David)!\":${5:https://david-dm.org/${1:user}/${2:repository}}"
+  },
+  "DUB license": {
+    "prefix": "svg-dub-license",
+    "body": "\"!https://img.shields.io/dub/l/${1:project}.svg${2:?style=flat${3:-square}}(DUB)!\":$4"
+  },
+  "Gem rank daily": {
+    "prefix": "svg-gem-rank-day",
+    "body": "\"!https://img.shields.io/gem/rd/${1:gem}.svg${2:?style=flat${3:-square}}(Gem)!\":${4:https://rubygems.org/gems/${1:gem}"
+  },
+  "Gem rank total": {
+    "prefix": "svg-gem-rank-total",
+    "body": "\"!https://img.shields.io/gem/rt/${1:gem}.svg${2:?style=flat${3:-square}}(Gem)!\":${4:https://rubygems.org/gems/${1:gem}"
+  },
+  "Gem user": {
+    "prefix": "svg-gem-user",
+    "body": "\"!https://img.shields.io/gem/u/${1:gem}.svg${2:?style=flat${3:-square}}(Gem)!\":${5:https://rubygems.org/profiles/${4:user}}"
+  },
+  "Gemnasium": {
+    "prefix": "svg-gemnasium-deps",
+    "body": "\"!https://img.shields.io/gemnasium/${1:user}/${2:gem}.svg${3:?style=flat${4:-square}}(Gemnasium)!\":${5:https://gemnasium.com/${1:user}/${2:gem}}"
+  },
+  "GitHub issues": {
+    "prefix": "svg-github-issues",
+    "body": "\"!https://img.shields.io/github/issues/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(GitHub)!\":${5:https://github.com/${1:user}/${2:repository}/issues}"
+  },
+  "Gitter chat": {
+    "prefix": "svg-gitter-chat",
+    "body": "\"!https://img.shields.io/badge/chat-Gitter-${3:ff69b4}.svg${4:?style=flat${5:-square}}(Gitter)!\":https://gitter.im/${1:user}/${2:repository}"
+  },
+  "Gratipay": {
+    "prefix": "svg-gratipay",
+    "body": "\"!https://img.shields.io/gratipay/${1:user}.svg${2:?style=flat${3:-square}}(Gratipay)!\":${4:https://gratipay.com/${1:user}}"
+  },
+  "Hackage": {
+    "prefix": "svg-hackage-deps",
+    "body": "\"!https://img.shields.io/hackage-deps/v/${1:package}.svg${2:?style=flat${3:-square}}(Hackage)!\":${4:https://hackage.haskell.org/package/${1:package}}"
+  },
+  "Hex.pm license": {
+    "prefix": "svg-hex-license",
+    "body": "\"!https://img.shields.io/hexpm/l/${1:package}.svg${2:?style=flat${3:-square}}(Hex.pm)!\":${4:https://hex.pm/packages/${1:package}}"
+  },
+  "Libscore": {
+    "prefix": "svg-libscore",
+    "body": "\"!https://img.shields.io/libscore/s/${1:project}.svg${2:?style=flat${3:-square}}(Libscore)!\":$4"
+  },
+  "npm license": {
+    "prefix": "svg-npm-license",
+    "body": "\"!https://img.shields.io/npm/l/${1:package}.svg${2:?style=flat${3:-square}}(npm)!\":${4:https://www.npmjs.org/package/${1:package}}"
+  },
+  "Packagist license": {
+    "prefix": "svg-packagist-license",
+    "body": "\"!https://img.shields.io/packagist/l/${1:user}/${2:package}.svg${3:?style=flat${4:-square}}(Packagist)!\":${5:https://packagist.org/packages/${1:user}/${2:package}}"
+  },
+  "PuppetForge endorsement": {
+    "prefix": "svg-puppetforge-endorsement",
+    "body": "\"!https://img.shields.io/puppetforge/e/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}(PuppetForge)!\":${5:https://forge.puppetforge.net/${1:user}/${2:project}}"
+  },
+  "PuppetForge modules": {
+    "prefix": "svg-puppetforge-modules",
+    "body": "\"!https://img.shields.io/puppetforge/mc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}(PuppetForge)!\":${5:https://forge.puppetforge.net/${1:user}/${2:project}}"
+  },
+  "PuppetForge releases": {
+    "prefix": "svg-puppetforge-releases",
+    "body": "\"!https://img.shields.io/puppetforge/rc/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}(PuppetForge)!\":${5:https://forge.puppetforge.net/${1:user}/${2:project}}"
+  },
+  "PuppetForge score": {
+    "prefix": "svg-puppetforge-score",
+    "body": "\"!https://img.shields.io/puppetforge/f/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}(PuppetForge)!\":${5:https://forge.puppetforge.net/${1:user}/${2:project}}"
+  },
+  "PyPI implementation": {
+    "prefix": "svg-pypi-implementation",
+    "body": "\"!https://img.shields.io/pypi/implementation/${1:package}.svg${2:?style=flat${3:-square}}(PyPI)!\":${4:https://pypi.python.org/pypi/${1:package}}"
+  },
+  "PyPI license": {
+    "prefix": "svg-pypi-license",
+    "body": "\"!https://img.shields.io/pypi/l/${1:package}.svg${2:?style=flat${3:-square}}(PyPI)!\":${4:https://pypi.python.org/pypi/${1:package}}"
+  },
+  "PyPI status": {
+    "prefix": "svg-pypi-status",
+    "body": "\"!https://img.shields.io/pypi/status/${1:package}.svg${2:?style=flat${3:-square}}(PyPI)!\":${4:https://pypi.python.org/pypi/${1:package}}"
+  },
+  "PyPI versions": {
+    "prefix": "svg-pypi-versions",
+    "body": "\"!https://img.shields.io/pypi/pyversions/${1:package}.svg${2:?style=flat${3:-square}}(PyPI)!\":${4:https://pypi.python.org/pypi/${1:package}}"
+  },
+  "PyPI wheel": {
+    "prefix": "svg-pypi-wheel",
+    "body": "\"!https://img.shields.io/pypi/wheel/${1:package}.svg${2:?style=flat${3:-square}}(PyPI)!\":${4:https://pypi.python.org/pypi/${1:package}}"
+  },
+  "Requires.io": {
+    "prefix": "svg-requires",
+    "body": "\"!https://img.shields.io/requires/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Requires.io)!\":$5"
+  },
+  "Talk.ai": {
+    "prefix": "svg-talk",
+    "body": "\"!https://img.shields.io/talk/t/${1:id}.svg${2:?style=flat${3:-square}}(Talk.ai)!\":$4"
+  },
+  "VersionEye": {
+    "prefix": "svg-versioneye-deps",
+    "body": "\"!https://img.shields.io/versioneye/d/${1:language}/${2:library}.svg${3:?style=flat${4:-square}}(VersionEye)!\":${5:https://www.versioneye.com/${1:language}/${2:library}}"
+  },
+  "Wheelmap": {
+    "prefix": "svg-wheelmap",
+    "body": "\"!https://img.shields.io/wheelmap/a/${1:node}.svg${2:?style=flat${3:-square}}(Wheelmap)!\":$4"
+  },
+  "WordPress": {
+    "prefix": "svg-wordpress-rating",
+    "body": "\"!https://img.shields.io/wordpress/plugin/r/${1:plugin}.svg${2:?style=flat${3:-square}}(WordPress)!\":$4"
+  },
+  "Your Badge": {
+    "prefix": "svg-custom",
+    "body": "\"!https://img.shields.io/badge/${2:${1:subject}}-${3:status}-${4:color}.svg${5:?style=flat${6:-square}}(${1:subject})!\":$7"
+  }
+}

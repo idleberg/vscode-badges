@@ -1,0 +1,138 @@
+{
+  "apm": {
+    "prefix": "svg-apm-dl",
+    "body": "[![apm](https://img.shields.io/apm/dm/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://atom.io/${5:packages}/${1:package}})$9"
+  },
+  "Chocolatey": {
+    "prefix": "svg-chocolatey-dl",
+    "body": "[![Chocolatey](https://img.shields.io/chocolatey/dt/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://chocolatey.org/packages/${1:package}})$9"
+  },
+  "Crates.io latest": {
+    "prefix": "svg-crates-dl-latest",
+    "body": "[![Crates.io](https://img.shields.io/crates/dv/${1:project}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "Crates.io": {
+    "prefix": "svg-crates-dl",
+    "body": "[![Crates.io](https://img.shields.io/crates/d/${1:project}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "DUB daily": {
+    "prefix": "svg-dub-dl-day",
+    "body": "[![DUB](https://img.shields.io/dub/dd/${1:project}${2:/${3:latest}}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "DUB monthly": {
+    "prefix": "svg-dub-dl-month",
+    "body": "[![DUB](https://img.shields.io/dub/dm/${1:project}${2:/${3:latest}}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "DUB total": {
+    "prefix": "svg-dub-dl-total",
+    "body": "[![DUB](https://img.shields.io/dub/dt/${1:project}${2:/${3:latest}}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "DUB weekly": {
+    "prefix": "svg-dub-dl-week",
+    "body": "[![DUB](https://img.shields.io/dub/dw/${1:project}${2:/${3:latest}}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "Gem latest version": {
+    "prefix": "svg-gem-dl-ver",
+    "body": "[![Gem](https://img.shields.io/gem/dv/${1:gem}/${2:version}.svg${3:?style=flat${4:-square}})](${5:https://rubygems.org/gems/${1:gem}})$9"
+  },
+  "Gem stable": {
+    "prefix": "svg-gem-dl-stable",
+    "body": "[![Gem](https://img.shields.io/gem/dv/${1:gem}/stable.svg${2:?style=flat${3:-square}})](${4:https://rubygems.org/gems/${1:gem}})$9"
+  },
+  "Gem total": {
+    "prefix": "svg-gem-dl-total",
+    "body": "[![Gem](https://img.shields.io/gem/dt/${1:gem}.svg${2:?style=flat${3:-square}})](${4:https://rubygems.org/gems/${1:gem}})$9"
+  },
+  "Gem version total": {
+    "prefix": "svg-gem-dl-total-ver",
+    "body": "[![Gem](https://img.shields.io/gem/dtv/${1:gem}.svg${2:?style=flat${3:-square}})](${4:https://rubygems.org/gems/${1:gem}})$9"
+  },
+  "GitHub Releases (by Asset)": {
+    "prefix": "svg-github-dl-asset",
+    "body": "[![GitHub](https://img.shields.io/github/downloads/${1:user}/${2:repository}/latest/${3:asset}.svg${4:?style=flat${5:-square}})](${6:https://github.com/${1:user}/${2:repository}})$9"
+  },
+  "GitHub Releases (by Release)": {
+    "prefix": "svg-github-dl-release",
+    "body": "[![GitHub](https://img.shields.io/github/downloads/${1:user}/${2:repository}/${3:release}/total.svg${4:?style=flat${5:-square}})](${6:https://github.com/${1:user}/${2:repository}})$9"
+  },
+  "GitHub Releases": {
+    "prefix": "svg-github-dl",
+    "body": "[![GitHub](https://img.shields.io/github/downloads/${1:user}/${2:repository}/latest/total.svg${3:?style=flat${4:-square}})](${5:https://github.com/${1:user}/${2:repository}})$9"
+  },
+  "Hex.pm daily": {
+    "prefix": "svg-hex-dl-day",
+    "body": "[![Hex.pm](https://img.shields.io/hexpm/dd/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hex.pm/packages/${1:package}})$9"
+  },
+  "Hex.pm total": {
+    "prefix": "svg-hex-dl-total",
+    "body": "[![Hex.pm](https://img.shields.io/hexpm/dt/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hex.pm/packages/${1:package}})$9"
+  },
+  "Hex.pm weekly": {
+    "prefix": "svg-hex-dl-week",
+    "body": "[![Hex.pm](https://img.shields.io/hexpm/dw/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://hex.pm/packages/${1:package}})$9"
+  },
+  "MyGet": {
+    "prefix": "svg-myget-dl",
+    "body": "[![MyGet](https://img.shields.io/myget/${1:user}/dt/${2:package}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "npm": {
+    "prefix": "svg-npm-dl",
+    "body": "[![npm](https://img.shields.io/npm/dm/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://www.npmjs.org/package/${1:package}})$9"
+  },
+  "NuGet": {
+    "prefix": "svg-nuget-dl",
+    "body": "[![NuGet](https://img.shields.io/nuget/dt/${1:package}.svg${2:?style=flat${3:-square}})](${4:http://www.nuget.org/packages/${1:package}})$9"
+  },
+  "Package Control": {
+    "prefix": "svg-package-control-dl",
+    "body": "[![Package Control](https://packagecontrol.herokuapp.com/downloads/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://packagecontrol.io/packages/${1:package}})$9"
+  },
+  "Packagist daily": {
+    "prefix": "svg-packagist-dl-day",
+    "body": "[![Packagist](https://img.shields.io/packagist/dd/${1:user}/${2:package}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})$9"
+  },
+  "Packagist monthly": {
+    "prefix": "svg-packagist-dl-month",
+    "body": "[![Packagist](https://img.shields.io/packagist/dm/${1:user}/${2:package}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})$9"
+  },
+  "Packagist total": {
+    "prefix": "svg-packagist-dl-total",
+    "body": "[![Packagist](https://img.shields.io/packagist/dt/${1:user}/${2:package}.svg${3:?style=flat${4:-square}})](${5:https://packagist.org/packages/${1:user}/${2:package}})$9"
+  },
+  "PuppetForge": {
+    "prefix": "svg-puppetforge-dl",
+    "body": "[![PuppetForge](https://img.shields.io/puppetforge/dt/${1:user}/${2:project}.svg${3:?style=flat${4:-square}})](${5:https://forge.puppetforge.net/${1:user}/${2:project}})$9"
+  },
+  "PyPI daily": {
+    "prefix": "svg-pypi-dl-day",
+    "body": "[![PyPI](https://img.shields.io/pypi/dd/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "PyPI monthly": {
+    "prefix": "svg-pypi-dl-month",
+    "body": "[![PyPI](https://img.shields.io/pypi/dm/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "PyPI weekly": {
+    "prefix": "svg-pypi-dl-week",
+    "body": "[![PyPI](https://img.shields.io/pypi/dw/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
+  },
+  "SourceForge daily": {
+    "prefix": "svg-sourceforge-dl-day",
+    "body": "[![SourceForge](https://img.shields.io/sourceforge/dd/${1:project}.svg${2:?style=flat${3:-square}})](${4:https://sourceforge.net/${1:project}})$9"
+  },
+  "SourceForge monthly": {
+    "prefix": "svg-sourceforge-dl-month",
+    "body": "[![SourceForge](https://img.shields.io/sourceforge/dm/${1:project}.svg${2:?style=flat${3:-square}})](${4:https://sourceforge.net/${1:project}})$9"
+  },
+  "SourceForge total": {
+    "prefix": "svg-sourceforge-dl-total",
+    "body": "[![SourceForge](https://img.shields.io/sourceforge/dt/${1:project}.svg${2:?style=flat${3:-square}})](${4:https://sourceforge.net/${1:project}})$9"
+  },
+  "SourceForge weekly": {
+    "prefix": "svg-sourceforge-dl-week",
+    "body": "[![SourceForge](https://img.shields.io/sourceforge/dw/${1:project}.svg${2:?style=flat${3:-square}})](${4:https://sourceforge.net/${1:project}})$9"
+  },
+  "WordPress": {
+    "prefix": "svg-wordpress-dl",
+    "body": "[![WordPress](https://img.shields.io/wordpress/plugin/dt/${1:plugin}.svg${2:?style=flat${3:-square}})](${4:https://wordpress.org/plugins/${1:plugin}})$9"
+  }
+}

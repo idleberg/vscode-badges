@@ -1,0 +1,122 @@
+{
+  "apm": {
+    "prefix": "svg-apm-ver",
+    "body": "\"!https://img.shields.io/apm/v/${1:package}.svg${2:?style=flat${3:-square}}(apm)!\":${4:https://atom.io/${5:packages}/${1:package}}$9"
+  },
+  "Bower": {
+    "prefix": "svg-bower-ver",
+    "body": "\"!https://img.shields.io/bower/v/${1:package}.svg${2:?style=flat${3:-square}}(Bower)!\":$4$9"
+  },
+  "Chef cookbook": {
+    "prefix": "svg-chef-ver",
+    "body": "\"!https://img.shields.io/cookbook/v/${1:cookbook}.svg${2:?style=flat${3:-square}}(Chef)!\":${4:https://supermarket.chef.io/cookbooks/${1:cookbook}}$9"
+  },
+  "Chocolatey": {
+    "prefix": "svg-chocolatey-ver",
+    "body": "\"!https://img.shields.io/chocolatey/v/${1:package}.svg${2:?style=flat${3:-square}}(Chocolatey)!\":$4$9"
+  },
+  "Clojars": {
+    "prefix": "svg-clojars-ver",
+    "body": "\"!https://img.shields.io/clojars/v/${1:project}.svg${3:?style=flat${4:-square}}(Clojars)!\":$5$9"
+  },
+  "CocoaPods": {
+    "prefix": "svg-cocoapods-ver",
+    "body": "\"!https://img.shields.io/cocoapods/v/${1:pod}.svg${2:?style=flat${3:-square}}(CocoaPods)!\":$4$9"
+  },
+  "CPAN": {
+    "prefix": "svg-cpan-ver",
+    "body": "\"!https://img.shields.io/cpan/v/${1:project}.svg${3:?style=flat${4:-square}}(CPAN)!\":$5$9"
+  },
+  "Crates.io": {
+    "prefix": "svg-crates-ver",
+    "body": "\"!https://img.shields.io/crates/v/${1:project}.svg${3:?style=flat${4:-square}}(Crates.io)!\":$5$9"
+  },
+  "CTAN": {
+    "prefix": "svg-ctan-ver",
+    "body": "\"!https://img.shields.io/ctan/v/${1:project}.svg${3:?style=flat${4:-square}}(CTAN)!\":$5$9"
+  },
+  "DUB": {
+    "prefix": "svg-dub-ver",
+    "body": "\"!https://img.shields.io/dub/v/${1:project}.svg${3:?style=flat${4:-square}}(DUB)!\":$5$9"
+  },
+  "Gem": {
+    "prefix": "svg-gem-ver",
+    "body": "\"!https://img.shields.io/gem/v/${1:gem}.svg${2:?style=flat${3:-square}}(Gem)!\":$4$9"
+  },
+  "GitHub forks": {
+    "prefix": "svg-github-forks",
+    "body": "\"!https://img.shields.io/github/forks/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(GitHub)!\":${5:https://github.com/${1:user}/${2:repository}/network}$9"
+  },
+  "GitHub release": {
+    "prefix": "svg-github-release",
+    "body": "\"!https://img.shields.io/github/release/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(GitHub)!\":${5:https://github.com/${1:user}/${2:repository}/releases}$9"
+  },
+  "GitHub tag": {
+    "prefix": "svg-github-tag",
+    "body": "\"!https://img.shields.io/github/tag/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(GitHub)!\":${5:https://github.com/${1:user}/${2:repository}/tags}$9"
+  },
+  "Hackage": {
+    "prefix": "svg-hackage-ver",
+    "body": "\"!https://img.shields.io/hackage/v/${1:package}.svg${2:?style=flat${3:-square}}(Hackage)!\":${4:https://hackage.haskell.org/package/${1:package}}$9"
+  },
+  "Hex.pm": {
+    "prefix": "svg-hex-ver",
+    "body": "\"!https://img.shields.io/hexpm/v/${1:package}.svg${2:?style=flat${3:-square}}(Hex.pm)!\":${4:https://hex.pm/packages/${1:package}}$9"
+  },
+  "Maven Central": {
+    "prefix": "svg-maven-ver",
+    "body": "\"!https://img.shields.io/maven-central/v/${1:group}/${2:artifact}.svg${3:?style=flat${4:-square}}(Maven Central)!\":$5$9"
+  },
+  "MyGet pre-release": {
+    "prefix": "svg-myget-ver-pre",
+    "body": "\"!https://img.shields.io/myget/${1:user}/vpre/${2:package.svg${3:?style=flat${4:-square}}}(MyGet)!\":$5$9"
+  },
+  "MyGet": {
+    "prefix": "svg-myget-ver",
+    "body": "\"!https://img.shields.io/myget/${1:user}/v/${2:package}.svg${3:?style=flat${4:-square}}(MyGet)!\":$5$9"
+  },
+  "Node": {
+    "prefix": "svg-node-ver",
+    "body": "\"!https://img.shields.io/node/v/${1:package}.svg${2:?style=flat${3:-square}}(node)!\":$4$9"
+  },
+  "npm": {
+    "prefix": "svg-npm-ver",
+    "body": "\"!https://img.shields.io/npm/v/${1:package}.svg${2:?style=flat${3:-square}}(npm)!\":${4:https://www.npmjs.org/package/${1:package}}$9"
+  },
+  "NuGet pre-release": {
+    "prefix": "svg-nuget-ver-pre",
+    "body": "\"!https://img.shields.io/nuget/vpre/${1:package}.svg${2:?style=flat${3:-square}}(NuGet)!\":${4:http://www.nuget.org/packages/${1:package}}$9"
+  },
+  "NuGet": {
+    "prefix": "svg-nuget-ver",
+    "body": "\"!https://img.shields.io/nuget/v/${1:package}.svg${2:?style=flat${3:-square}}(NuGet)!\":${4:http://www.nuget.org/packages/${1:package}}$9"
+  },
+  "Packagist Pre Release": {
+    "prefix": "svg-packagist-ver-pre",
+    "body": "\"!https://img.shields.io/packagist/vpre/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Packagist)!\":${5:https://packagist.org/packages/${1:user}/${2:package}}$9"
+  },
+  "Packagist": {
+    "prefix": "svg-packagist-ver",
+    "body": "\"!https://img.shields.io/packagist/v/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}(Packagist)!\":${5:https://packagist.org/packages/${1:user}/${2:package}}$9"
+  },
+  "Pub": {
+    "prefix": "svg-pub-ver",
+    "body": "\"!https://img.shields.io/pub/v/${1:package}.svg${2:?style=flat${3:-square}}(Pub)!\":${4:https://pub.dartlang.org/${1:package}}$9"
+  },
+  "PuppetForge": {
+    "prefix": "svg-puppetforge-ver",
+    "body": "\"!https://img.shields.io/puppetforge/v/${1:user}/${2:module}.svg${3:?style=flat${4:-square}}(PuppetForge)!\":${5:https://forge.puppetlabs.com/${1:user}/${2:module}}$9"
+  },
+  "PyPI": {
+    "prefix": "svg-pypi-ver",
+    "body": "\"!https://img.shields.io/pypi/v/${1:package}.svg${2:?style=flat${3:-square}}(PyPI)!\":${4:https://pypi.python.org/pypi/${1:package}}$9"
+  },
+  "WordPress compatibility": {
+    "prefix": "svg-wordpress-compat",
+    "body": "\"!https://img.shields.io/wordpress/plugin/v/${1:plugin}.svg${2:?style=flat${3:-square}}(WordPress)!\":${4:https://wordpress.org/plugins/${1:plugin}}$9"
+  },
+  "WordPress plugin": {
+    "prefix": "svg-wordpress-ver-tested",
+    "body": "\"!https://img.shields.io/wordpress/v/${1:plugin}.svg${2:?style=flat${3:-square}}(WordPress)!\":${4:https://wordpress.org/plugins/${1:plugin}}$9"
+  }
+}

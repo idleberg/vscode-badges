@@ -1,0 +1,130 @@
+{
+  "AppVeyor branch": {
+    "prefix": "svg-appveyor-branch",
+    "body": "<a href=\"$6\"><img src=\"https://img.shields.io/appveyor/ci/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}\" title=\"AppVeyor\" alt=\"AppVeyor\" /></a>$9"
+  },
+  "AppVeyor": {
+    "prefix": "svg-appveyor",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/appveyor/ci/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"AppVeyor\" alt=\"AppVeyor\" /></a>$9"
+  },
+  "CircleCI branch": {
+    "prefix": "svg-circleci-branch",
+    "body": "<a href=\"$6\"><img src=\"https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}}\" title=\"CircleCI\" alt=\"CircleCI\" /></a>$9"
+  },
+  "CircleCI token": {
+    "prefix": "svg-circleci-token",
+    "body": "<a href=\"$7\"><img src=\"https://img.shields.io/circleci/token/${1:YOURTOKEN}/project/${2:user}/${3:repository}/${4:master}.svg${5:?style=flat${6:-square}}\" title=\"CircleCI\" alt=\"CircleCI\" /></a>$9"
+  },
+  "CircleCI": {
+    "prefix": "svg-circleci",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"CircleCI\" alt=\"CircleCI\" /></a>$9"
+  },
+  "Codecov branch": {
+    "prefix": "svg-codecov-branch",
+    "body": "<a href=\"$6\"><img src=\"https://img.shields.io/codecov/c/github/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}}\" title=\"Codecov\" alt=\"Codecov\" /></a>$9"
+  },
+  "Codecov private": {
+    "prefix": "svg-codecov-private",
+    "body": "<a href=\"$7\"><img src=\"https://img.shields.io/codecov/c/token/${1:YOURTOKEN}/github/${2:user}/${3:repository}/${4:master}.svg${5:?style=flat${6:-square}}\" title=\"Codecov\" alt=\"Codecov\" /></a>$9"
+  },
+  "Codecov": {
+    "prefix": "svg-codecov",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/codecov/c/github/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"Codecov\" alt=\"Codecov\" /></a>$9"
+  },
+  "Codeship branch": {
+    "prefix": "svg-codeship-branch",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/codeship/${1:id}/${2:branch}.svg${3:?style=flat${4:-square}}\" title=\"Codeship\" alt=\"Codeship\" /></a>$9"
+  },
+  "Codeship": {
+    "prefix": "svg-codeship",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/codeship/${1:id}.svg${2:?style=flat${3:-square}}\" title=\"Codeship\" alt=\"Codeship\" /></a>$9"
+  },
+  "Coveralls branch": {
+    "prefix": "svg-coveralls-branch",
+    "body": "<a href=\"$6\"><img src=\"https://img.shields.io/coveralls/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}\" title=\"Coveralls\" alt=\"Coveralls\" /></a>$9"
+  },
+  "Coveralls": {
+    "prefix": "svg-coveralls",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/coveralls/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"Coveralls\" alt=\"Coveralls\" /></a>$9"
+  },
+  "Coverity Job": {
+    "prefix": "svg-coverity-job",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/coverity/ondemand/job/${1:JOB}.svg${2:?style=flat${3:-square}}\" title=\"Coverity\" alt=\"Coverity\" /></a>$9"
+  },
+  "Coverity Stream": {
+    "prefix": "svg-coverity-stream",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/coverity/ondemand/streams/${1:STREAM}.svg${2:?style=flat${3:-square}}\" title=\"Coverity\" alt=\"Coverity\" /></a>$9"
+  },
+  "HHVM branch": {
+    "prefix": "svg-hhvm-branch",
+    "body": "<a href=\"$6\"><img src=\"https://img.shields.io/hhvm/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}\" title=\"HHVM\" alt=\"HHVM\" /></a>$9"
+  },
+  "HHVM": {
+    "prefix": "svg-hhvm",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/hhvm/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"HHVM\" alt=\"HHVM\" /></a>$9"
+  },
+  "Jenkins tests": {
+    "prefix": "svg-jenkins-tests",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/jenkins/t/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}\" title=\"Jenkins\" alt=\"Jenkins\" /></a>$9"
+  },
+  "Jenkins": {
+    "prefix": "svg-jenkins",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/jenkins/s/${1:user}/${2:project}.svg${3:?style=flat${4:-square}}\" title=\"Jenkins\" alt=\"Jenkins\" /></a>$9"
+  },
+  "Scrutinizer branch": {
+    "prefix": "svg-scrutinizer-branch",
+    "body": "<a href=\"$6\"><img src=\"https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}\" title=\"Scrutinizer\" alt=\"Scrutinizer\" /></a>$9"
+  },
+  "Scrutinizer Build": {
+    "prefix": "svg-scrutinizer-coverage",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/scrutinizer/build/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"Scrutinizer\" alt=\"Scrutinizer\" /></a>$9"
+  },
+  "Scrutinizer Coverage": {
+    "prefix": "svg-scrutinizer-coverage",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/scrutinizer/coverage/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"Scrutinizer\" alt=\"Scrutinizer\" /></a>$9"
+  },
+  "Scrutinizer": {
+    "prefix": "svg-scrutinizer",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/scrutinizer/g/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"Scrutinizer\" alt=\"Scrutinizer\" /></a>$9"
+  },
+  "SensioLabs Insight": {
+    "prefix": "svg-sensiolab",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/sensiolabs/i/${1:id}.svg${2:?style=flat${3:-square}}\" title=\"SensioLabs\" alt=\"SensioLabs\" /></a>$9"
+  },
+  "Shippable branch": {
+    "prefix": "svg-shippable-branch",
+    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/shippable/${1:hash}/${2:master}.svg${3:?style=flat${4:-square}}\" title=\"Shippable\" alt=\"Shippable\" /></a>$9"
+  },
+  "Shippable": {
+    "prefix": "svg-shippable",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/shippable/${1:hash}.svg${2:?style=flat${3:-square}}\" title=\"Shippable\" alt=\"Shippable\" /></a>$9"
+  },
+  "TeamCity (full build status)": {
+    "prefix": "svg-teamcity-full-build-status",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/teamcity/http/teamcity.jetbrains.com/e/${1:buildtype}.svg${2:?style=flat${3:-square}}\" title=\"TeamCity\" alt=\"TeamCity\" /></a>$9"
+  },
+  "TeamCity (simple build status)": {
+    "prefix": "svg-teamcity-simple-build-status",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/${1:buildtype}.svg${2:?style=flat${3:-square}}\" title=\"TeamCity\" alt=\"TeamCity\" /></a>$9"
+  },
+  "TeamCity CodeBetter Coverage": {
+    "prefix": "svg-teamcity-coverage",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/teamcity/coverage/${1:buildtype}.svg${2:?style=flat${3:-square}}\" title=\"TeamCity\" alt=\"TeamCity\" /></a>$9"
+  },
+  "TeamCity CodeBetter": {
+    "prefix": "svg-teamcity-codebetter",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/teamcity/codebetter/${1:buildtype}.svg${2:?style=flat${3:-square}}\" title=\"TeamCity\" alt=\"TeamCity\" /></a>$9"
+  },
+  "Travis branch": {
+    "prefix": "svg-travis-branch",
+    "body": "<a href=\"${6:https://travis-ci.org/${1:user}/${2:repository}}\"><img src=\"https://img.shields.io/travis/${1:user}/${2:repository}/${3:branch}.svg${4:?style=flat${5:-square}}\" title=\"Travis CI\" alt=\"Travis CI\" /></a>$9"
+  },
+  "Travis": {
+    "prefix": "svg-travis",
+    "body": "<a href=\"${5:https://travis-ci.org/${1:user}/${2:repository}}\"><img src=\"https://img.shields.io/travis/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"Travis CI\" alt=\"Travis CI\" /></a>$9"
+  },
+  "Wercker": {
+    "prefix": "svg-wercker",
+    "body": "<a href=\"$4\"><img src=\"https://img.shields.io/wercker/ci/${1:id}.svg${2:?style=flat${3:-square}}\" title=\"Wercker\" alt=\"Wercker\" /></a>$9"
+  }
+}

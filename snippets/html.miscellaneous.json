@@ -1,0 +1,4 @@
+{
+  "prefix": "svg-apm-license",
+  "body": "<a href=\"${4:https://atom.io/${5:packages}/${1:package}}\"><img src=\"https://img.shields.io/apm/l/${1:package}.svg${2:?style=flat${3:-square}}\" title=\"apm\" alt=\"apm\" /></a>$9"
+}

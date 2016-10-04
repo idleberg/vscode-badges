@@ -24,10 +24,6 @@
         "url": "https://github.com/idleberg/vscode-badges/issues"
     },
     "icon": "images/logo.svg",
-    "galleryBanner": {
-        "color": "#232323",
-        "theme": "dark"
-    },
     "engines": {
         "vscode": "^1.0.0"
     },

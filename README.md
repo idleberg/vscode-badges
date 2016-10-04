@@ -7,11 +7,11 @@
 
 Snippets to quickly insert [Shield.io](http://shields.io) badges into HTML, Markdown, reStructuredText or Textile documents — like those you can see above.
 
+This package is also available for [Atom](https://github.com/idleberg/atom-badges) and [Sublime Text](https://github.com/idleberg/sublime-badges).
+
 ![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-badges/master/screenshot.gif)
 
-*Badge snippets in action (Screenshot nicked from the Atom package)*
-
-This package is also available for [Atom](https://github.com/idleberg/atom-badges) and [Sublime Text](https://github.com/idleberg/sublime-badges).
+*Badge snippets in action (screenshot nicked from the Atom package, sorry!)*
 
 ## Installation
 

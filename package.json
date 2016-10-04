@@ -38,103 +38,99 @@
         "snippets": [
             {
                 "language": "html",
-                "path": "./snippets/__cdnjs.json"
+                "path": "./snippets/html.build.json"
             },
             {
-                "languages": "html",
-                "path": "/snippets/html.build.json"
+                "language": "html",
+                "path": "./snippets/html.downloads.json"
             },
             {
-                "languages": "html",
-                "path": "/snippets/html.downloads.json"
+                "language": "html",
+                "path": "./snippets/html.licenses.json"
             },
             {
-                "languages": "html",
-                "path": "/snippets/html.licenses.json"
+                "language": "html",
+                "path": "./snippets/html.miscellaneous.json"
             },
             {
-                "languages": "html",
-                "path": "/snippets/html.miscellaneous.json"
+                "language": "html",
+                "path": "./snippets/html.social.json"
             },
             {
-                "languages": "html",
-                "path": "/snippets/html.social.json"
+                "language": "html",
+                "path": "./snippets/html.version.json"
             },
             {
-                "languages": "html",
-                "path": "/snippets/html.version.json"
+                "language": "markdown",
+                "path": "./snippets/markdown.build.json"
             },
             {
-                "languages": "markdown",
-                "path": "/snippets/markdown.build.json"
+                "language": "markdown",
+                "path": "./snippets/markdown.downloads.json"
             },
             {
-                "languages": "markdown",
-                "path": "/snippets/markdown.downloads.json"
+                "language": "markdown",
+                "path": "./snippets/markdown.licenses.json"
             },
             {
-                "languages": "markdown",
-                "path": "/snippets/markdown.licenses.json"
+                "language": "markdown",
+                "path": "./snippets/markdown.miscellaneous.json"
             },
             {
-                "languages": "markdown",
-                "path": "/snippets/markdown.miscellaneous.json"
+                "language": "markdown",
+                "path": "./snippets/markdown.social.json"
             },
             {
-                "languages": "markdown",
-                "path": "/snippets/markdown.social.json"
+                "language": "markdown",
+                "path": "./snippets/markdown.version.json"
             },
             {
-                "languages": "markdown",
-                "path": "/snippets/markdown.version.json"
+                "language": "restructuredtext",
+                "path": "./snippets/rst.build.json"
             },
             {
-                "languages": "restructuredtext",
-                "path": "/snippets/rst.build.json"
+                "language": "restructuredtext",
+                "path": "./snippets/rst.downloads.json"
             },
             {
-                "languages": "restructuredtext",
-                "path": "/snippets/rst.downloads.json"
+                "language": "restructuredtext",
+                "path": "./snippets/rst.licenses.json"
             },
             {
-                "languages": "restructuredtext",
-                "path": "/snippets/rst.licenses.json"
+                "language": "restructuredtext",
+                "path": "./snippets/rst.miscellaneous.json"
             },
             {
-                "languages": "restructuredtext",
-                "path": "/snippets/rst.miscellaneous.json"
+                "language": "restructuredtext",
+                "path": "./snippets/rst.social.json"
             },
             {
-                "languages": "restructuredtext",
-                "path": "/snippets/rst.social.json"
+                "language": "restructuredtext",
+                "path": "./snippets/rst.version.json"
             },
             {
-                "languages": "restructuredtext",
-                "path": "/snippets/rst.version.json"
+                "language": "textile",
+                "path": "./snippets/textile.build.json"
             },
             {
-                "languages": "textile",
-                "path": "/snippets/textile.build.json"
+                "language": "textile",
+                "path": "./snippets/textile.downloads.json"
             },
             {
-                "languages": "textile",
-                "path": "/snippets/textile.downloads.json"
+                "language": "textile",
+                "path": "./snippets/textile.licenses.json"
             },
             {
-                "languages": "textile",
-                "path": "/snippets/textile.licenses.json"
+                "language": "textile",
+                "path": "./snippets/textile.miscellaneous.json"
             },
             {
-                "languages": "textile",
-                "path": "/snippets/textile.miscellaneous.json"
+                "language": "textile",
+                "path": "./snippets/textile.social.json"
             },
             {
-                "languages": "textile",
-                "path": "/snippets/textile.social.json"
-            },
-            {
-                "languages": "textile",
-                "path": "/snippets/textile.version.json"
+                "language": "textile",
+                "path": "./snippets/textile.version.json"
             }
         ]
     },

@@ -60,7 +60,7 @@ Examples:
 * `svg-npm-ver` - the version of a Node package
 * `svg-gpl3` - link to GNU General Public License, Version 3
 
-Please refer to the [snippet guide](https://github.com/idleberg/vscode-badges/snippets.md) for a complete list.
+Please refer to the [snippet guide](https://github.com/idleberg/vscode-badges/blob/master/snippets.md) for a complete list.
 
 ## License
 

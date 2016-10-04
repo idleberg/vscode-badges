@@ -9,7 +9,7 @@ Snippets to quickly insert [Shield.io](http://shields.io) badges into HTML, Mark
 
 ![Screenshot](https://raw.githubusercontent.com/idleberg/vscode-badges/master/screenshot.gif)
 
-*Badge snippets in action, mind the preview pane on the right!*
+*Badge snippets in action (Screenshot nicked from the Atom package)*
 
 This package is also available for [Atom](https://github.com/idleberg/atom-badges) and [Sublime Text](https://github.com/idleberg/sublime-badges).
 

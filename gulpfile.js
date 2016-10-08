@@ -9,7 +9,7 @@
 const gulp = require('gulp');
 const debug = require('gulp-debug');
 const eslint = require('gulp-eslint');
-const jsonlint = require('gulp-json-lint');
+const jsonlint = require('gulp-jsonlint');
 const xmlVal = require('gulp-xml-validator');
 
 // Supported files

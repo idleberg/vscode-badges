@@ -131,7 +131,8 @@
         ]
     },
     "extensionDependencies": [
-        "idleberg.textile"
+        "idleberg.textile",
+        "lextudio.restructuredtext"
     ],
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",

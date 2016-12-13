@@ -130,10 +130,6 @@
             }
         ]
     },
-    "extensionDependencies": [
-        "idleberg.textile",
-        "lextudio.restructuredtext"
-    ],
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "gulp lint"

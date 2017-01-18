@@ -1,145 +1,145 @@
 {
-  "name": "badges",
-  "displayName": "Badges",
-  "description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
-  "version": "1.0.5",
-  "publisher": "idleberg",
-  "license": "MIT",
-  "author": {
-    "name": "Jan T. Sott",
-    "url": "http://github.com/idleberg"
-  },
-  "keywords": [
-    "badge",
-    "badges",
-    "shieldio",
-    "shield.io"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idleberg/vscode-badges.git"
-  },
-  "homepage": "https://github.com/idleberg/vscode-badges",
-  "bugs": {
-    "url": "https://github.com/idleberg/vscode-badges/issues"
-  },
-  "icon": "images/logo.svg",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "html",
-        "path": "./snippets/html.build.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/html.downloads.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/html.licenses.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/html.miscellaneous.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/html.social.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/html.version.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.build.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.downloads.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.licenses.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.miscellaneous.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.social.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.version.json"
-      },
-      {
-        "language": "restructuredtext",
-        "path": "./snippets/rst.build.json"
-      },
-      {
-        "language": "restructuredtext",
-        "path": "./snippets/rst.downloads.json"
-      },
-      {
-        "language": "restructuredtext",
-        "path": "./snippets/rst.licenses.json"
-      },
-      {
-        "language": "restructuredtext",
-        "path": "./snippets/rst.miscellaneous.json"
-      },
-      {
-        "language": "restructuredtext",
-        "path": "./snippets/rst.social.json"
-      },
-      {
-        "language": "restructuredtext",
-        "path": "./snippets/rst.version.json"
-      },
-      {
-        "language": "textile",
-        "path": "./snippets/textile.build.json"
-      },
-      {
-        "language": "textile",
-        "path": "./snippets/textile.downloads.json"
-      },
-      {
-        "language": "textile",
-        "path": "./snippets/textile.licenses.json"
-      },
-      {
-        "language": "textile",
-        "path": "./snippets/textile.miscellaneous.json"
-      },
-      {
-        "language": "textile",
-        "path": "./snippets/textile.social.json"
-      },
-      {
-        "language": "textile",
-        "path": "./snippets/textile.version.json"
-      }
-    ]
-  },
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "gulp lint"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-debug": "^3.0.0",
-    "gulp-eslint": "^3.0.1",
-    "gulp-jsonlint": "^1.2.0",
-    "gulp-xml-validator": "^0.1.2",
-    "vscode": "^1.0.3"
-  }
+    "name": "badges",
+    "displayName": "Badges",
+    "description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
+    "version": "1.0.6",
+    "publisher": "idleberg",
+    "license": "MIT",
+    "author": {
+        "name": "Jan T. Sott",
+        "url": "http://github.com/idleberg"
+    },
+    "keywords": [
+        "badge",
+        "badges",
+        "shieldio",
+        "shield.io"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/idleberg/vscode-badges.git"
+    },
+    "homepage": "https://github.com/idleberg/vscode-badges",
+    "bugs": {
+        "url": "https://github.com/idleberg/vscode-badges/issues"
+    },
+    "icon": "images/logo.svg",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.build.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.downloads.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.licenses.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.miscellaneous.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.social.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.version.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.build.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.downloads.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.licenses.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.miscellaneous.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.social.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.version.json"
+            },
+            {
+                "language": "restructuredtext",
+                "path": "./snippets/rst.build.json"
+            },
+            {
+                "language": "restructuredtext",
+                "path": "./snippets/rst.downloads.json"
+            },
+            {
+                "language": "restructuredtext",
+                "path": "./snippets/rst.licenses.json"
+            },
+            {
+                "language": "restructuredtext",
+                "path": "./snippets/rst.miscellaneous.json"
+            },
+            {
+                "language": "restructuredtext",
+                "path": "./snippets/rst.social.json"
+            },
+            {
+                "language": "restructuredtext",
+                "path": "./snippets/rst.version.json"
+            },
+            {
+                "language": "textile",
+                "path": "./snippets/textile.build.json"
+            },
+            {
+                "language": "textile",
+                "path": "./snippets/textile.downloads.json"
+            },
+            {
+                "language": "textile",
+                "path": "./snippets/textile.licenses.json"
+            },
+            {
+                "language": "textile",
+                "path": "./snippets/textile.miscellaneous.json"
+            },
+            {
+                "language": "textile",
+                "path": "./snippets/textile.social.json"
+            },
+            {
+                "language": "textile",
+                "path": "./snippets/textile.version.json"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "gulp lint"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-debug": "^3.0.0",
+        "gulp-eslint": "^3.0.1",
+        "gulp-jsonlint": "^1.2.0",
+        "gulp-xml-validator": "^0.1.2",
+        "vscode": "^1.0.3"
+    }
 }

@@ -26,7 +26,7 @@ Launch Quick Open, paste the following command, and press <kbd>Enter</kbd>
 Download the package extension from the the [release page](https://github.com/idleberg/vscode-badges/releases) and install it from the command-line:
 
 ```bash
-$ code --install-extension badges.vsix
+$ code --install-extension badges-*.vsix
 ```
 
 ### Clone Repository

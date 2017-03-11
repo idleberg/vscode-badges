@@ -2,6 +2,7 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/github/release/idleberg/vscode-badges.svg?style=flat-square)](https://github.com/idleberg/vscode-badges/releases)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.badges.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.badges)
 [![Travis](https://img.shields.io/travis/idleberg/vscode-badges.svg?style=flat-square)](https://travis-ci.org/idleberg/vscode-badges)
 [![David](https://img.shields.io/david/dev/idleberg/vscode-badges.svg?style=flat-square)](https://david-dm.org/idleberg/vscode-badges?type=dev)
 

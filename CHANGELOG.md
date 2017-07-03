@@ -1,3 +1,8 @@
+# v1.0.7 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.7)
+
+* use PNG logo (as required by upcoming versions of Code)
+* update `devDepencencies`
+
 # v1.0.6 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.6)
 
 - integrate `yarn.lock` into Travis CI tests
@@ -26,3 +31,4 @@ add dependency on reStructured Text package, stops errors in console.log
 # v1.0.0 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.0)
 
 - first release
+

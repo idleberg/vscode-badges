@@ -50,6 +50,8 @@ $ git clone https://github.com/idleberg/vscode-badges badges
 
 ### Usage
 
+**Note:** By default, the quick suggestions are disabled for Markdown files. You can enable them by setting `editor.quickSuggestions` to `true`.
+
 All snippets start with the prefix `svg-` and is followed by the service you're adressing, with some services offering multiple choices.
 
 Examples:

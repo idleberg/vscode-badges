@@ -1,7 +1,7 @@
 # v1.0.7 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.7)
 
 * use PNG logo (as required by upcoming versions of Code)
-* update `devDepencencies`
+* update `devDependencies`
 
 # v1.0.6 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.6)
 

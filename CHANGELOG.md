@@ -1,3 +1,8 @@
+# v1.0.9 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.9)
+
+- replace linter
+- update dependencies
+
 # v1.0.8 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.8)
 
 - update development toolchain

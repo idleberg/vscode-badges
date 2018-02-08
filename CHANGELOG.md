@@ -23,7 +23,7 @@
 
 # v1.0.4 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.4)
 
-add dependency on reStructured Text package, stops errors in console.log
+- add dependency on reStructured Text package, stops errors in console.log
 
 # v1.0.3 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.3)
 

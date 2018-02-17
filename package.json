@@ -17,9 +17,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/idleberg/vscode-badges.git"
+        "url": "https://github.com/idleberg/vscode-badges"
     },
-    "homepage": "https://github.com/idleberg/vscode-badges",
+    "homepage": "https://github.com/idleberg/vscode-badges#readme",
     "bugs": {
         "url": "https://github.com/idleberg/vscode-badges/issues"
     },

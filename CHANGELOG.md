@@ -1,3 +1,7 @@
+# v1.0.11 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.11)
+
+- commit unsaved file 😅
+
 # v1.0.10 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.10)
 
 - add missing Circle CI links

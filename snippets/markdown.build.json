@@ -9,7 +9,7 @@
   },
   "CircleCI branch": {
     "prefix": "svg-circleci-branch",
-    "body": "[![CircleCI](https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}})]($6)$9"
+    "body": "[![CircleCI](https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}})](https://circleci.com/${6:gh}/${1:user}/${2:repository}/tree/${3:master})$9"
   },
   "CircleCI token": {
     "prefix": "svg-circleci-token",

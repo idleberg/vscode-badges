@@ -9,7 +9,7 @@
   },
   "CircleCI branch": {
     "prefix": "svg-circleci-branch",
-    "body": "<a href=\"$6\"><img src=\"https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}}\" title=\"CircleCI\" alt=\"CircleCI\" /></a>$9"
+    "body": "<a href=\"https://circleci.com/${6:gh}/${1:user}/${2:repository}/tree/${3:master}\"><img src=\"https://img.shields.io/circleci/project/${1:user}/${2:repository}/${3:master}.svg${4:?style=flat${5:-square}}\" title=\"CircleCI\" alt=\"CircleCI\" /></a>$9"
   },
   "CircleCI token": {
     "prefix": "svg-circleci-token",
@@ -17,7 +17,7 @@
   },
   "CircleCI": {
     "prefix": "svg-circleci",
-    "body": "<a href=\"$5\"><img src=\"https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"CircleCI\" alt=\"CircleCI\" /></a>$9"
+    "body": "<a href=\"https://circleci.com/${5:gh}/${1:user}/${2:repository}\"><img src=\"https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}}\" title=\"CircleCI\" alt=\"CircleCI\" /></a>$9"
   },
   "Codecov branch": {
     "prefix": "svg-codecov-branch",

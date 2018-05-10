@@ -17,7 +17,7 @@
   },
   "CircleCI": {
     "prefix": "svg-circleci",
-    "body": "[![CircleCI](https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})]($5)$9"
+    "body": "[![CircleCI](https://img.shields.io/circleci/project/${1:user}/${2:repository}.svg${3:?style=flat${4:-square}})](https://circleci.com/${5:gh}/${1:user}/${2:repository})$9"
   },
   "Codecov branch": {
     "prefix": "svg-codecov-branch",

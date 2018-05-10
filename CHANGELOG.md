@@ -1,3 +1,7 @@
+# v1.0.10 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.10)
+
+- add missing Circle CI links
+
 # v1.0.9 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.9)
 
 - replace linter

@@ -2,7 +2,7 @@
     "name": "badges",
     "displayName": "Badges",
     "description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "publisher": "idleberg",
     "license": "MIT",
     "author": {

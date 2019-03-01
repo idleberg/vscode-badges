@@ -1,0 +1,10 @@
+{
+  "Visual Studio Marketplace Rating": {
+      "prefix": "svg-vs-marketplace-rating",
+      "body": "![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/${1:extensionid}.svg${2:?style=flat${3:-square}})"
+  },
+  "Visual Studio Marketplace Rating - Stars": {
+    "prefix": "svg-vs-marketplace-rating-stars",
+    "body": "![Visual Studio Marketplace Rating Stars](https://img.shields.io/visual-studio-marketplace/stars/${1:extensionid}.svg${2:?style=flat${3:-square}})"
+}
+}

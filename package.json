@@ -1,147 +1,156 @@
 {
-    "name": "badges",
-    "displayName": "Badges",
-    "description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
-    "version": "1.0.11",
-    "publisher": "idleberg",
-    "license": "MIT",
-    "author": {
-        "name": "Jan T. Sott",
-        "url": "http://github.com/idleberg"
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "precommit": "npm run test",
-        "test": "vscode-linter",
-        "vscode:prepublish": "gulp"
-    },
-    "keywords": [
-        "badge",
-        "badges",
-        "shieldio",
-        "shield.io"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/idleberg/vscode-badges"
-    },
-    "homepage": "https://github.com/idleberg/vscode-badges#readme",
-    "bugs": {
-        "url": "https://github.com/idleberg/vscode-badges/issues"
-    },
-    "icon": "images/logo.png",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/html.build.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.downloads.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.licenses.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.miscellaneous.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.social.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.version.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/markdown.build.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/markdown.downloads.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/markdown.licenses.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/markdown.miscellaneous.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/markdown.social.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/markdown.version.json"
-            },
-            {
-                "language": "restructuredtext",
-                "path": "./snippets/rst.build.json"
-            },
-            {
-                "language": "restructuredtext",
-                "path": "./snippets/rst.downloads.json"
-            },
-            {
-                "language": "restructuredtext",
-                "path": "./snippets/rst.licenses.json"
-            },
-            {
-                "language": "restructuredtext",
-                "path": "./snippets/rst.miscellaneous.json"
-            },
-            {
-                "language": "restructuredtext",
-                "path": "./snippets/rst.social.json"
-            },
-            {
-                "language": "restructuredtext",
-                "path": "./snippets/rst.version.json"
-            },
-            {
-                "language": "textile",
-                "path": "./snippets/textile.build.json"
-            },
-            {
-                "language": "textile",
-                "path": "./snippets/textile.downloads.json"
-            },
-            {
-                "language": "textile",
-                "path": "./snippets/textile.licenses.json"
-            },
-            {
-                "language": "textile",
-                "path": "./snippets/textile.miscellaneous.json"
-            },
-            {
-                "language": "textile",
-                "path": "./snippets/textile.social.json"
-            },
-            {
-                "language": "textile",
-                "path": "./snippets/textile.version.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "gulp": "^4.0.0",
-        "gulp-raster": "^0.2.0",
-        "gulp-rename": "^1.2.2",
-        "husky": "^0.14.3",
-        "vscode": "^1.0.3",
-        "vscode-linter": "^0.2.1"
-    }
+	"name": "badges",
+	"displayName": "Badges",
+	"description": "Snippets to quickly insert Shield.io badges into HTML, Markdown, reStructuredText or Textile documents",
+	"version": "1.0.11",
+	"publisher": "idleberg",
+	"license": "MIT",
+	"author": {
+		"name": "Jan T. Sott",
+		"url": "http://github.com/idleberg"
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"precommit": "npm run test",
+		"test": "vscode-linter",
+		"vscode:prepublish": "gulp"
+	},
+	"keywords": [
+		"badge",
+		"badges",
+		"shieldio",
+		"shield.io"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/idleberg/vscode-badges"
+	},
+	"homepage": "https://github.com/idleberg/vscode-badges#readme",
+	"bugs": {
+		"url": "https://github.com/idleberg/vscode-badges/issues"
+	},
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html.build.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.downloads.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.licenses.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.miscellaneous.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.social.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.version.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.build.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.downloads.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.licenses.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.miscellaneous.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.rating.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.social.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.version.json"
+			},
+			{
+				"language": "restructuredtext",
+				"path": "./snippets/rst.build.json"
+			},
+			{
+				"language": "restructuredtext",
+				"path": "./snippets/rst.downloads.json"
+			},
+			{
+				"language": "restructuredtext",
+				"path": "./snippets/rst.licenses.json"
+			},
+			{
+				"language": "restructuredtext",
+				"path": "./snippets/rst.miscellaneous.json"
+			},
+			{
+				"language": "restructuredtext",
+				"path": "./snippets/rst.social.json"
+			},
+			{
+				"language": "restructuredtext",
+				"path": "./snippets/rst.version.json"
+			},
+			{
+				"language": "textile",
+				"path": "./snippets/textile.build.json"
+			},
+			{
+				"language": "textile",
+				"path": "./snippets/textile.downloads.json"
+			},
+			{
+				"language": "textile",
+				"path": "./snippets/textile.licenses.json"
+			},
+			{
+				"language": "textile",
+				"path": "./snippets/textile.miscellaneous.json"
+			},
+			{
+				"language": "textile",
+				"path": "./snippets/textile.social.json"
+			},
+			{
+				"language": "textile",
+				"path": "./snippets/textile.version.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"gulp": "^4.0.0",
+		"gulp-raster": "^0.2.0",
+		"gulp-rename": "^1.2.2",
+		"husky": "^0.14.3",
+		"vscode": "^1.0.3",
+		"vscode-linter": "^0.2.1"
+	},
+	"__metadata": {
+		"id": "9f81b6aa-5ef8-4279-ae1f-65f3d7c64919",
+		"publisherDisplayName": "idleberg",
+		"publisherId": "d142cf02-af52-4395-9363-148909445cb3"
+	}
 }

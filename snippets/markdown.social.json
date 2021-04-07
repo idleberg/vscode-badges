@@ -18,5 +18,9 @@
   "Twitter URL": {
     "prefix": "svg-twitter-url",
     "body": "[![Twitter](https://img.shields.io/twitter/url/https/${1:url}.svg${3:?style=flat${4:-square}})]($5)$9"
+  },
+  "Aur Votes": {
+    "prefix": "svg-aur-votes",
+    "body": "[![AUR votes](https://img.shields.io/aur/votes/${1:orange}${2:?style=flat${3:-square}})](https://aur.archlinux.org/packages/${1:orange}/)$9"
   }
 }

@@ -77,6 +77,7 @@ The snippets are grouped into categories matching those on the [Shields.io](http
 ## Licenses
 
 - `svg-apache`
+- `svg-aur-license`
 - `svg-cc0`
 - `svg-cc-by`
 - `svg-cc-by-nc`
@@ -94,6 +95,8 @@ The snippets are grouped into categories matching those on the [Shields.io](http
 ## Miscellaneous
 
 - `svg-apm-license`
+- `svg-aur-maintainer`
+- `svg-aur-modified`
 - `svg-bountysource`
 - `svg-cocoapods-license`
 - `svg-cocoapods-platform`
@@ -135,6 +138,7 @@ The snippets are grouped into categories matching those on the [Shields.io](http
 
 ## Social
 
+- `svg-aur-votes`
 - `svg-github-followers`
 - `svg-github-forks`
 - `svg-github-stars`
@@ -144,6 +148,7 @@ The snippets are grouped into categories matching those on the [Shields.io](http
 ## Version
 
 - `svg-apm-ver`
+- `svg-aur-ver`
 - `svg-bower-ver`
 - `svg-chef-ver`
 - `svg-chocolatey-ver`

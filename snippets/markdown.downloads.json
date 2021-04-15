@@ -131,6 +131,14 @@
     "prefix": "svg-sourceforge-dl-week",
     "body": "[![SourceForge](https://img.shields.io/sourceforge/dw/${1:project}.svg${2:?style=flat${3:-square}})](${4:https://sourceforge.net/${1:project}})$9"
   },
+  "Visual Studio Marketplace Installs": {
+    "prefix": "svg-vs-marketplace-installs",
+    "body": "![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/${1:extensionid}.svg${2:?style=flat${3:-square}})"
+  },
+  "Visual Studio Marketplace Downloads": {
+    "prefix": "svg-vs-marketplace-downloads",
+    "body": "![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/${1:extensionid}.svg${2:?style=flat${3:-square}})"
+  },
   "WordPress": {
     "prefix": "svg-wordpress-dl",
     "body": "[![WordPress](https://img.shields.io/wordpress/plugin/dt/${1:plugin}.svg${2:?style=flat${3:-square}})](${4:https://wordpress.org/plugins/${1:plugin}})$9"

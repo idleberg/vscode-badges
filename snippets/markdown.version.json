@@ -111,6 +111,10 @@
     "prefix": "svg-pypi-ver",
     "body": "[![PyPI](https://img.shields.io/pypi/v/${1:package}.svg${2:?style=flat${3:-square}})](${4:https://pypi.python.org/pypi/${1:package}})$9"
   },
+  "Visual Studio Marketplace Version": {
+    "prefix": "svg-vs-marketplace-version",
+    "body": "![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/${1:extensionid}.svg${2:?style=flat${3:-square}})"
+  },
   "WordPress compatibility": {
     "prefix": "svg-wordpress-compat",
     "body": "[![WordPress](https://img.shields.io/wordpress/plugin/v/${1:plugin}.svg${2:?style=flat${3:-square}})](${4:https://wordpress.org/plugins/${1:plugin}})$9"

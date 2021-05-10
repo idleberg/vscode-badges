@@ -1,7 +1,17 @@
-*.vsix
+# Package Managers
 bower_components/
 node_modules/
 npm-debug.log*
-package-lock.json
-todo.md
+shrinkwrap.yaml
 vendor/
+yarn-error.log
+yarn.lock
+
+# Development Files
+.eslintcache
+*.d.ts
+*.map
+
+# Project-specific
+*.vsix
+todo.md

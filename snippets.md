@@ -39,6 +39,7 @@ The snippets are grouped into categories matching those on the [Shields.io](http
 
 ## Downloads
 
+- `svg-vs-marketplace-downloads`
 - `svg-apm-dl`
 - `svg-chocolatey-dl`
 - `svg-crates-dl-latest`
@@ -104,9 +105,10 @@ The snippets are grouped into categories matching those on the [Shields.io](http
 - `svg-codeclimate-coverage`
 - `svg-codeclimate`
 - `svg-crates-license`
+- `svg-custom`
+- `svg-david-dep`
 - `svg-david-devdep`
 - `svg-david-peerdeps`
-- `svg-david-dep`
 - `svg-dub-license`
 - `svg-gem-rank`
 - `svg-gem-rank`
@@ -132,9 +134,13 @@ The snippets are grouped into categories matching those on the [Shields.io](http
 - `svg-requires`
 - `svg-talk`
 - `svg-versioneye-deps`
+- `svg-vs-marketplace-downloads`
+- `svg-vs-marketplace-installs`
+- `svg-vs-marketplace-rating-stars`
+- `svg-vs-marketplace-rating-version`
+- `svg-vs-marketplace-rating`
 - `svg-wheelmap`
 - `svg-wordpress-rating`
-- `svg-custom`
 
 ## Social
 

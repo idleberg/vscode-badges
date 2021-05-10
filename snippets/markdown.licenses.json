@@ -54,5 +54,9 @@
   "The zlib/libsvg License": {
     "prefix": "svg-zlib-libsvg",
     "body": "[![zlib/libsvg](https://img.shields.io/badge/license-zlib%2Flibsvg-${1:orange}.svg${2:?style=flat${3:-square}})](http://opensource.org/licenses/Zlib)$9"
+  },
+  "AUR License": {
+    "prefix": "svg-aur-license",
+    "body": "[![AUR license](https://img.shields.io/aur/license/${1:orange}${2:?style=flat${3:-square}})](https://aur.archlinux.org/packages/${1:orange}/)$9"
   }
 }

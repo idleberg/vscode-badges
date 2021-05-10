@@ -154,5 +154,13 @@
   "Your Badge": {
     "prefix": "svg-custom",
     "body": "[![${1:subject}](https://img.shields.io/badge/${2:${1:subject}}-${3:status}-${4:color}.svg${5:?style=flat${6:-square}})]($7)$9"
+  },
+  "Aur Maintainer": {
+    "prefix": "svg-aur-maintainer",
+    "body": "[![AUR maintainer](https://img.shields.io/aur/maintainer/${1:orange}${2:?style=flat${3:-square}})](https://aur.archlinux.org/packages/${1:orange}/)$9"
+  },
+  "Aur Last Modified": {
+    "prefix": "svg-aur-modified",
+    "body": "[![AUR last modified](https://img.shields.io/aur/last-modified/${1:orange}${2:?style=flat${3:-square}})](https://aur.archlinux.org/packages/${1:orange}/)$9"
   }
 }

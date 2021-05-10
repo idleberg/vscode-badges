@@ -122,5 +122,9 @@
   "WordPress plugin": {
     "prefix": "svg-wordpress-ver-tested",
     "body": "[![WordPress](https://img.shields.io/wordpress/v/${1:plugin}.svg${2:?style=flat${3:-square}})](${4:https://wordpress.org/plugins/${1:plugin}})$9"
+  },
+  "Aur Version": {
+    "prefix": "svg-aur-ver",
+    "body": "[![AUR version](https://img.shields.io/aur/version/${1:orange}${2:?style=flat${3:-square}})](https://aur.archlinux.org/packages/${1:orange}/)$9"
   }
 }

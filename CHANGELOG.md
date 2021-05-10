@@ -1,3 +1,19 @@
+# v1.1.0 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.1.0)
+
+- add new badges
+    - `svg-aur-licence`
+    - `svg-aur-maintainer`
+    - `svg-aur-modified`
+    - `svg-aur-ver`
+    - `svg-aur-votes`
+    - `svg-vs-marketplace-downloads`
+    - `svg-vs-marketplace-installs`
+    - `svg-vs-marketplace-rating-stars`
+    - `svg-vs-marketplace-rating-version`
+    - `svg-vs-marketplace-rating`
+- update scripts
+- update dependencies
+
 # v1.0.11 [#](https://github.com/idleberg/vscode-badges/releases/tag/1.0.11)
 
 - commit unsaved file 😅

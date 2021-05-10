@@ -3,7 +3,7 @@
 [![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
 [![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-badges)](https://github.com/idleberg/vscode-badges/releases)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.badges.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.badges)
-[![Travis](https://flat.badgen.net/travis/idleberg/vscode-badges)](https://travis-ci.org/idleberg/vscode-badges)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/vscode-badges)](https://circleci.com/gh/idleberg/vscode-badges)
 [![David](https://flat.badgen.net/david/dev/idleberg/vscode-badges)](https://david-dm.org/idleberg/vscode-badges?type=dev)
 
 Snippets to quickly insert [Shield.io](http://shields.io) badges into HTML, Markdown, reStructuredText or Textile documents — like those you can see above.
